@@ -1,0 +1,82 @@
+.heading{
+    text-align: center;
+    background-color: grey;
+}
+#search{
+    text-align: center;
+}
+.navbar{
+    outline:5px solid black;
+    background-color: blue;
+    display:block;
+    padding:10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar ul li{
+  
+    display:inline;
+    margin-right:20px;
+
+
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    
+}
+#shop-body{
+    background-color: khaki;
+}
+#home-body{
+    background-color: lightsalmon;
+}
+ .footer{
+            display:flex;
+            gap:20px;
+        }
+        .image{
+            width :50%;
+            height:200px;
+        }
+.pro{
+    width:80%;
+    height:45%;
+    margin-left:5%;
+    margin-top:5%;
+}
+#cart-count{
+    font-weight: bold;
+    color:aliceblue;
+    background:red;
+    text-align: center;
+    border-radius: 50%;
+}
+#login-body{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYi_R6r9ZHvIEvdPfXjBcLSX8SStCev6LRA&s);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:100vh;
+}
+#form-body{
+    text-align:center;
+}
+.cart-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.delete-btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}

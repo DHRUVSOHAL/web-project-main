@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home-body">
+    <h1 class="heading"> E-COMMERCE WEBSITE</h1>
+    <hr>
+     <nav class="navbar">
+
+        <ul>
+            <li><a href="home.html" target="blank" color="white">HOME</a></li>
+            <li><a href="index.html" target="blank" color="white">ABOUT US</a></li>
+           <li><a href="shoping.html"target="blank"color="white">CART<span id="cart-count">0</span></a></li>
+
+            <li><a href="login.html"target="blank"color="white">LOGIN</a></li>
+
+            
+        </ul>
+    </nav>
+   
+        <hr>
+        <h1 class=>PRODUCTS AVAILABLE</h1>
+        <form id="search">
+            search:<input type="text">
+            <hr>
+        </form>
+        <div style="display: flex; gap: 10px;">
+            <div>
+            <img src="shoes.jpg" class="pro">
+            
+                <p>
+                   NAME:SHOES <br>
+                   PRICE:$20<br>
+                   <button onclick="addtocart('SHOES',20);
+                   count();">ADD</button>
+                </p>
+            </div>
+            <div>
+
+                <img src="cloths.jpg" class="pro">
+               <br>
+                    NAME:GUCCHI CLOTHS<br> 
+                    PRICE:$40<br>
+                    <button onclick="addtocart('GUCCHI',40);
+                     count();">ADD</button>
+                </div>
+                <div>
+
+                    <img src="pant.jpg" class="pro">
+                    <br>
+                    <p>
+                        NAME:PANT(MALE)<BR>
+                            PRICE:$30<BR>
+                                <button onclick="addtocart('PANT',30);
+                                count();">ADD</button>
+                    </p>
+                </div>
+                <div>
+                    <img src="bag.jpg" class="pro">
+                    <p>
+                        NAME:BAG<BR>
+                            PRICE:$15<BR>
+                                <BUTTON onclick="addtocart('BAG',15);
+                               count();">ADD</BUTTON>
+                        </p>
+                        </div>
+                        <div>
+                            <img src="book.jpeg" class="pro">
+                            <p>
+                                 NAME:BOOK<BR>
+                            PRICE:$500<BR>
+                                <BUTTON onclick="addtocart('BOOK',500);
+                              count();
+                                ">ADD</BUTTON>
+                            </p>
+                        </div>
+                            <div>
+                                <img src="spex.jpg" class="pro">
+                                <p>
+                                 NAME:SPECTECLES<BR>
+                            PRICE:$23<BR>
+                                <BUTTON onclick="addtocart('SPECTECLES',$23);
+                                count();
+                                 ">ADD</BUTTON>
+                            </p>
+                            </div>
+                        
+            </div>
+            <footer>
+            <div class="footer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" class="image">
+            
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1024px-YouTube_Logo_2017.svg.png"class="image" ></div>
+            </div>>
+            <div>
+                <h2>DETAILS</h2>
+                <p id="y">
+                   NAME:DHRUV SOHAL<BR>
+                    CONTACT:7988542134<BR>
+                    EMAIL:sohaldhruv00@gmail.com
+                </p>
+            </div>
+        </footer>
+    
+       
+</body>
+<script src="index.js">
+
+</script>
+</html>
