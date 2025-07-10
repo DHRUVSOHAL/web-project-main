@@ -28,68 +28,50 @@
             search:<input type="text">
             <hr>
         </form>
-        <div style="display: flex; gap: 10px;">
-            <div>
-            <img src="shoes.jpg" class="pro">
-            
-                <p>
-                   NAME:SHOES <br>
-                   PRICE:$20<br>
-                   <button onclick="addtocart('SHOES',20);
-                   count();">ADD</button>
-                </p>
-            </div>
-            <div>
-
-                <img src="cloths.jpg" class="pro">
-               <br>
-                    NAME:GUCCHI CLOTHS<br> 
-                    PRICE:$40<br>
-                    <button onclick="addtocart('GUCCHI',40);
-                     count();">ADD</button>
-                </div>
-                <div>
-
-                    <img src="pant.jpg" class="pro">
-                    <br>
-                    <p>
-                        NAME:PANT(MALE)<BR>
-                            PRICE:$30<BR>
-                                <button onclick="addtocart('PANT',30);
-                                count();">ADD</button>
-                    </p>
-                </div>
-                <div>
-                    <img src="bag.jpg" class="pro">
-                    <p>
-                        NAME:BAG<BR>
-                            PRICE:$15<BR>
-                                <BUTTON onclick="addtocart('BAG',15);
-                               count();">ADD</BUTTON>
-                        </p>
-                        </div>
-                        <div>
-                            <img src="book.jpeg" class="pro">
-                            <p>
-                                 NAME:BOOK<BR>
-                            PRICE:$500<BR>
-                                <BUTTON onclick="addtocart('BOOK',500);
-                              count();
-                                ">ADD</BUTTON>
-                            </p>
-                        </div>
-                            <div>
-                                <img src="spex.jpg" class="pro">
-                                <p>
-                                 NAME:SPECTECLES<BR>
-                            PRICE:$23<BR>
-                                <BUTTON onclick="addtocart('SPECTECLES',$23);
-                                count();
-                                 ">ADD</BUTTON>
-                            </p>
-                            </div>
-                        
-            </div>
+        <div class="products">
+    <div class="product-card">
+        <img src="shoes.jpg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: SHOES<br>PRICE: $20</p>
+            <button onclick="addtocart('SHOES',20); count();">ADD</button>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="cloths.jpg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: GUCCHI CLOTHS<br>PRICE: $40</p>
+            <button onclick="addtocart('GUCCHI',40); count();">ADD</button>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="pant.jpg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: PANT (MALE)<br>PRICE: $30</p>
+            <button onclick="addtocart('PANT',30); count();">ADD</button>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="bag.jpg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: BAG<br>PRICE: $15</p>
+            <button onclick="addtocart('BAG',15); count();">ADD</button>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="book.jpeg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: BOOK<br>PRICE: $500</p>
+            <button onclick="addtocart('BOOK',500); count();">ADD</button>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="spex.jpg" class="pro">
+        <div class="product-info">
+            <p>PRODUCT: SPECTACLES<br>PRICE: $23</p>
+            <button onclick="addtocart('SPECTACLES',23); count();">ADD</button>
+        </div>
+    </div>
+</div>
             <footer>
             <div class="footer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" class="image">
