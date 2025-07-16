@@ -14,8 +14,8 @@ function display() {
     for (let i = 0; i < cart.length; i++) {
         newHTML += `
         <div class="cart-row">
-            <span>${cart[i].name}</span>
-            <span >${cart[i].price}</span>
+            <span class="cart-item-name">${cart[i].name}</span>
+            <span class="cart-item-price">${cart[i].price}</span>
             <button onclick="removeFromCart(${i})" class="delete-btn">DELETE</button>
             
         </div>
@@ -56,7 +56,7 @@ function bill(){
         for(let i=0;i<cart.length;i++){
             total+=cart[i].price;
         }
-        billDiv.innerText="Total Bill: $"+total;
+        billDiv.innerHTML=`Total Bill:$${total}`;
     }
 }
 // Instead of window.onload = function() { ... };

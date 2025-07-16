@@ -93,7 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10%;
     margin-bottom: 8px;
 }
 .delete-btn {
@@ -102,5 +102,19 @@
     border-radius: 10px;
     padding: 5px 20px;
     border: none;
+    width: 20%;
     cursor: pointer;
 }
+.cart-item-name {
+    width:30%;
+}
+.cart-item-price {
+    width:20%;
+}
+.bill {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
